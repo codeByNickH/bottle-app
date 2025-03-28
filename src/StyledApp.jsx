@@ -21,8 +21,8 @@ export default function WineBottleCustomizer() {
     useEffect(() => {
         const checkModelFile = async () => {
             try {
-                const wineResponse = await fetch("/bottle-app/models/wine.gltf")
-                const whiskeyResponse = await fetch("/bottle-app/models/whiskey.gltf")
+                const wineResponse = await fetch(`${import.meta.env.BASE_URL}/models/wine.gltf`)
+                const whiskeyResponse = await fetch(`${import.meta.env.BASE_URL}/models/whiskey.gltf`)
 
                 if (!wineResponse.ok || !whiskeyResponse.ok) {
                     throw new Error(`Model files not found: Wine (${wineResponse.status}), Whiskey (${whiskeyResponse.status})`)

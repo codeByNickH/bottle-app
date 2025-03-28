@@ -13,4 +13,7 @@ export default defineConfig({
   },
   assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.bin'],
   base: '/bottle-app/',
+  build: {
+    chunkSizeWarningLimit: 1500,
+  }
 })

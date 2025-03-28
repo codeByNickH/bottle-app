@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei"
 import * as THREE from "three"
 
 export function BottleModel({ frontLabelImg, backLabelImg, modelType = "wine" }) {
-  const modelPath = modelType === "wine" ? "/bottle-app/models/wine.gltf" : "/bottle-app/models/whiskey.gltf"
+  const modelPath = modelType === "wine" ? `${import.meta.env.BASE_URL}/models/wine.gltf` : `${import.meta.env.BASE_URL}/models/whiskey.gltf`
   const { scene } = useGLTF(modelPath, true)
   const [modelLoaded, setModelLoaded] = useState(false)
   
