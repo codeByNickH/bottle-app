@@ -1,0 +1,11 @@
+Model Information:
+* title:	Classic wine bottle with label
+* source:	https://sketchfab.com/3d-models/classic-wine-bottle-with-label-7ce93c8c3db74d3eb6421b5579717938
+* author:	ilya.terekhin (https://sketchfab.com/ilya.terekhin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Classic wine bottle with label" (https://sketchfab.com/3d-models/classic-wine-bottle-with-label-7ce93c8c3db74d3eb6421b5579717938) by ilya.terekhin (https://sketchfab.com/ilya.terekhin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
